@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="asset/img/favicon.png"  >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>短链生成器</title>
+    <title>短网址生成器</title>
     <style>
       :root {
         --color-primary: #5c7cfa;
@@ -216,16 +216,6 @@
       </details>
       <button :class="{ loading }" :disabled="loading || isValidated()" @click="submit($refs, $nextTick)">生成</button>
     </main>
-    <footer>
-      基于Cloudflare的短链生成器<img src="https://cdn.jsdelivr.net/gh/HappyLeslieAlexander/PicGo01/Cloudflare.webp" width="80px" height="45px" alt="CloudFlare"> <br />
-
-      <a href="https://t.me/Depressed_LeslieAlexander" target="_blank">Leslie Alexander</a> <br />
-      
-      <a href="https://t.me/LeslieDiary" target="_blank">Telegram Channel</a> <br />
-
-      <a href="https://t.me/LeslieGroup" target="_blank">Telegram Group</a> <br />
-
-    </footer>
     <script src="asset/js/alpine.js"></script>
     <script>
       const app = {
